@@ -2,11 +2,11 @@
 Simple to use module/stand-alone program
 
 features:
-encryption
-decrytion
-key generation
-key storage
-using cryptography python package
+encryption,
+decrytion,
+key generation,
+key storage,
+using cryptography python package,
 
 This program can be run on its own to encrypt files or text from user or used as a module in a greater program allowing it to decrypt and encrypt files and information when 
 called upon.
