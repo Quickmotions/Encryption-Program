@@ -21,6 +21,8 @@ the encryption and decryption functions require two inputs:
 -data which has been encoded (using data.encode() only if it is a string)
 and a key which is also encoded (using key.encode() if it is a string)
 
+generate_key() requires a file name (eg. keyfile.key)
+
 (The program can generate you a new key by using the function generate_key())
 
 --------
