@@ -16,8 +16,8 @@ called upon.
 from EncryptModule import generate_key, encrypt_message, decrypt_message, main
 
 the encryption and decryption functions require two inputs:
--data which has been encoded (using data = data.encode() only if it is a string)
--a key which is also encoded.
+-data which has been encoded (using data.encode() only if it is a string)
+and a key which is also encoded (using key.encode() if it is a string)
 
 (The program can generate you a new key by using the function generate_key())
 
