@@ -6,10 +6,12 @@ features:
 -decrytion
 -key generation
 -key storage
+-using cryptography python package
 
 This program can be run on its own to encrypt files or text from user or used as a module in a greater program allowing it to decrypt and encrypt files and information when 
 called upon.
 
+--------
 To use as a module just:
 from EncryptModule import generate_key, encrypt_message, decrypt_message, main
 
