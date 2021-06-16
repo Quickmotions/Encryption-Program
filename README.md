@@ -12,7 +12,7 @@ This program can be run on its own to encrypt files or text from user or used as
 called upon.
 
 --------
-To use as a module just:
+To use as a module just: \n
 from EncryptModule import generate_key, encrypt_message, decrypt_message, main
 
 the encryption and decryption functions require two inputs:
