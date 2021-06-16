@@ -32,7 +32,6 @@ def main():
         key = generate_key(key_file)
     elif choice == "2":
         file_name = input("Enter the name of the key file: ")
-        file_name += ".key"
         key = open(file_name, "rb").read()
     else: 
         key = input("Enter the 32 bit key: ")
